@@ -1,0 +1,11 @@
+# build settings
+build:
+  command: echo 'Nothing to build'
+
+# redirect rules
+# this example redirects all 404 errors to the homepage
+# you can modify or remove this rule as needed
+redirects:
+  - from: '/*'
+    to: /index.html
+    status: 200
